@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+import datetime
 
 app = Flask(__name__)
 
@@ -7,6 +8,10 @@ def home():
     return jsonify({
         "message": "Welcome to Flask App"
         })
+
+
+def health_check():
+    return jsonify({"status": "Healthy", "timestamp": str(datetime.datetime.utcnow())})
 
 @app.route("/info")
 def info():
