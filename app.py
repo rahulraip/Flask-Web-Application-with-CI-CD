@@ -9,7 +9,7 @@ def home():
         "message": "Welcome to Flask App"
         })
 
-
+@app.route("/health")
 def health_check():
     return jsonify({"status": "Healthy", "timestamp": str(datetime.datetime.utcnow())})
 
