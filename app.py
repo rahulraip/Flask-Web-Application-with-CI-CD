@@ -21,7 +21,9 @@ def info():
 def phone():
     return "1111222233"
 
-app.run(host="0.0.0.0")
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000)
 
 
 
