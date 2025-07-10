@@ -1,5 +1,4 @@
 from flask import Flask, jsonify
-from config import APP_CONFIG
 import datetime
 import random
 from utils.logger import get_logs
@@ -48,9 +47,6 @@ def get_system_logs():
     logs = get_logs()
     return jsonify({"logs": logs})
 
-@app.route('/api/config')
-def get_config():
-    return jsonify(APP_CONFIG)
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
