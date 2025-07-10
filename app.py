@@ -1,7 +1,6 @@
 from flask import Flask, jsonify
 import datetime
 import random
-from config import APP_CONFIG
 
 from config import APP_CONFIG
 from utils.logger import get_logs
