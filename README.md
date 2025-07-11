@@ -41,4 +41,21 @@ Jenkins CI/CD created with UI screenshots for reference
 
 <img width="517" height="544" alt="Builds" src="https://github.com/user-attachments/assets/6e6e4f5f-2063-40ba-b208-2af53c781996" />
 
+8. Poll SCM Demonstrates automation via triggers that run every 1 minute
+
+<img width="1372" height="670" alt="Poll_SCM" src="https://github.com/user-attachments/assets/a65dcc34-bb6b-4562-a484-d490658b62e0" />
+
+9. Finally App Deployed in Docker container. For connecting to webapp we need to go to docker container ip.
+
+<img width="1919" height="736" alt="docker_ip_checking" src="https://github.com/user-attachments/assets/395ef53d-2cbd-4c06-a626-8e711969e8d1" />
+
+10. FLask App Deployment done successfully!
+
+<img width="1311" height="803" alt="final_output_deployment" src="https://github.com/user-attachments/assets/f5e8567b-a3c9-4f8f-bfb4-eb90950be3dc" />
+
+    
+
+
+
+
 
