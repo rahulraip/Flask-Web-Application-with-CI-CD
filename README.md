@@ -8,3 +8,7 @@ Tech Stack:
 3. Flask - Lightweight Python web framework
 4. Git - Source code version control
 5. Linux (RHEL) - Host machine for Jenkins and Docker
+
+Jenkins CI/CD created with UI screenshots for reference
+
+<img width="1919" height="883" alt="dashboard" src="https://github.com/user-attachments/assets/c10aa9a2-6574-4f50-bf05-4c1dec92b5cf" />
