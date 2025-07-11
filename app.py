@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 import datetime
 import random
-from utils.logger import get_logs
+# from utils.logger import get_logs
 
 app = Flask(__name__)
 
@@ -41,12 +41,12 @@ def get_metrics():
         "last_updated": str(datetime.datetime.utcnow())
     }
     return jsonify(metrics)
-
+"""
 @app.route('/api/logs')
 def get_system_logs():
     logs = get_logs()
     return jsonify({"logs": logs})
-
+"""
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
