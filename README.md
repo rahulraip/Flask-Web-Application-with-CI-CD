@@ -1,15 +1,15 @@
-# Flask-Web-Application-with-CI-CD
+# 🚀 Flask-Web-Application-with-CI-CD
 
-This project demonstrates a complete CI/CD pipeline for a Python Flask web application using Jenkins, Docker, and a local RHEL-based Linux environment. It showcases how to automate the build, test, and deployment stages using open-source DevOps tools.
+> This project demonstrates a complete CI/CD pipeline for a Python Flask web application using Jenkins, Docker, and a local RHEL-based Linux environment. It showcases how to automate the build, test, and deployment stages using open-source DevOps tools.
 
-Tech Stack:
+🛠️ Tech Stack:
 1. Jenkins - Automates build, test, and deployment
 2. Docker - Containerizes the flask application
 3. Flask - Lightweight Python web framework
 4. Git - Source code version control
 5. Linux (RHEL) - Host machine for Jenkins and Docker
 
-Jenkins CI/CD created with UI screenshots for reference
+#### ✅ Jenkins CI/CD created with UI screenshots for reference
 
 1. DashBoard
 
@@ -37,7 +37,7 @@ Jenkins CI/CD created with UI screenshots for reference
 
 <img width="1919" height="652" alt="docker_container" src="https://github.com/user-attachments/assets/abc1041e-0883-4ed7-a75e-e8485dc132be" />
 
-7. Jenkkins Builds
+7. Jenkins Builds
 
 <img width="517" height="544" alt="Builds" src="https://github.com/user-attachments/assets/6e6e4f5f-2063-40ba-b208-2af53c781996" />
 
